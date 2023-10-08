@@ -1,0 +1,86 @@
+{
+    "name": "Age groups",
+    "id": "PA000000",
+    "searchable": true,
+    "allOpen": true,
+    "version": "short",
+    "children": [
+        {
+            "name": "Age groups - Children and youth",
+            "id": "PA010000",
+            "synonyms": [
+                {
+                    "name": "Synonym1",
+                    "link": "#"
+                },
+                {
+                    "name": "Synonym2",
+                    "link": "#"
+                },
+                {
+                    "name": "Synonym3",
+                    "link": "#"
+                }
+            ],
+            "children": [
+                {
+                    "name": "Age groups - Children and youth - Infants and toddlers",
+                    "id": "PA010100",
+                    "checkable": true,
+                    "selected": true,
+                    "synonyms": [
+                        {
+                            "name": "Synonym1",
+                            "link": "#"
+                        },
+                        {
+                            "name": "Synonym2",
+                            "link": "#"
+                        },
+                        {
+                            "name": "Synonym3",
+                            "link": "#"
+                        }
+                    ]
+                },
+                {
+                    "name": "Age groups - Children and youth - Children",
+                    "id": "PA010200",
+                    "checkable": false,
+                    "selected": true
+  
+                },
+                {
+                    "name": "Age groups - Children and youth - Preteens",
+                    "id": "PA010300",
+                    "checkable": false,
+                    "selected": true
+                },
+                {
+                    "name": "Age groups - Children and youth - Adolescents",
+                    "id": "PA010400",
+                    "checkable": false,
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "name": "Age groups - Adults",
+            "id": "PA020000",
+            "children": [
+                {
+                    "name": "Age groups - Adults - Young adults",
+                    "id": "PA020100"
+                },
+                {
+                    "name": "Age groups - Adults - Older adults",
+                    "id": "PA020200"
+                },
+                {
+                    "name": "Age groups - Adults - Seniors",
+                    "id": "PA020300"
+                }
+            ]
+        }
+    ]
+  }

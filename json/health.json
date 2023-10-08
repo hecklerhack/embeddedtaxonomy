@@ -1,0 +1,66 @@
+{
+    "name": "Health",
+    "id": "PH000000",
+    "children": [
+      {
+        "name": "Health - People with disabilities",
+        "id": "PH010000",
+        "children": [
+          {
+            "name": "Health - People with disabilities - People with physical disabilities",
+            "id": "PH010100"
+          },
+          {
+            "name": "Health - People with disabilities - People with vision impairments",
+            "id": "PH010200"
+          },
+          {
+            "name": "Health - People with disabilities - People with hearing impairments",
+            "id": "PH010300"
+          },
+          {
+            "name": "Health - People with disabilities - People with psychosocial disabilities",
+            "id": "PH010400"
+          },
+          {
+            "name": "Health - People with disabilities - People with intellectual disabilities",
+            "id": "PH010500"
+          },
+          {
+            "name": "Health - People with disabilities - People with learning disabilities",
+            "id": "PH010600"
+          },
+          {
+            "name": "Health - People with disabilities - People with other disabilities",
+            "id": "PH010700"
+          }
+        ]
+      },
+      {
+        "name": "Health - People with diseases and illnesses",
+        "id": "PH020000",
+        "children": [
+          {
+            "name": "Health - People with diseases and illnesses - People with HIV/AIDS",
+            "id": "PH020100"
+          },
+          {
+            "name": "Health - People with diseases and illnesses - Chronically ill people",
+            "id": "PH020200"
+          },
+          {
+            "name": "Health - People with diseases and illnesses - Terminally ill people",
+            "id": "PH020300"
+          }
+        ]
+      },
+      {
+        "name": "Health - Substance abusers",
+        "id": "PH030000"
+      },
+      {
+        "name": "Health - Pregnant people",
+        "id": "PH040000"
+      }
+    ]
+  }
