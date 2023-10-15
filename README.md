@@ -8,13 +8,14 @@ To include the script:
 <script type="module" src='index.js'></script>
 ```
 
-To display taxonomy to an HTMl element, add source (taxonomy in json) and behavior.
+To display taxonomy to an HTML element, add source (taxonomy in json) and behavior.
 
 ```
+<input id="anything_2" type="text" source="ageGroup" behavior="profile" />
 <input id="anything_3" type="text" source="health" behavior="search" />
 ```
 
-To add your own taxonomy, import the json file(s) and add them in the variables as follows:
+To add your own taxonomy, copy them in the json folder of this project and import the json file(s) and add them in the variables as shown below.
 
 ```
 import ageGroup from './json/ageGroup.json' assert { type: 'json' };
